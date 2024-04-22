@@ -1,6 +1,14 @@
+# From and import
+
 from Instructions import Pybot2
 from Instructions import Pybot1
 from Instructions.voice import droid
+
+# Import
+
+import webbrowser
+import messagebox
+
 
 exec_code = input("quel code voulais vous executer  : ")
 
@@ -12,6 +20,5 @@ elif "pybot2" in exec_code:
     
 
 else:
-    droid.say("Nous arrivons pas a ouvrir les données")
-    droid.runAndWait()
-    print("rtfm : read the fucking manuel, voir readme")
+    messagebox.showerror("Erreur de choix", "Une erreur a été détecter")
+    webbrowser.open("https://sites.google.com/view/pybot2-0/wiki/home")

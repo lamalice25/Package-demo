@@ -3,7 +3,6 @@
 from Instructions import Pybot2
 from Instructions import Pybot1
 from Instructions.voice import droid
-
 # Import
 
 import webbrowser

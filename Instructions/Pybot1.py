@@ -9,11 +9,11 @@ def Pybot_chat():
     time.sleep(3)
     
     pairs = [
-        ["Bonjour"|"hi", ["Bonjour" or "hi"]],
-        
-
+        ["Bonjour", ["Bonjour monsieur"]],
+        ["Hi", ["Hi mister"]],
+        ["Hello", ["Hello mister"]],        
+        ["Gifs", ["Ok nous vous mettons un Gifs a dispotisions"]]
     ]
 
     chat = Chat(pairs)
     chat.converse()
-

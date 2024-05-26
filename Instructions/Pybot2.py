@@ -37,6 +37,16 @@ def pybot2():
         elif 'salut' in e.get():
             txt.insert(END, "\n"+"multibot : Bonjour comment puise-je vous aider?")
 
+        elif 'Aurevoir' in e.get():
+            txt.insert(END, "\n"+"multibot : Aurevoir")
+            
+            time.sleep(2)
+            
+            root.destroy()
+            quit()       
+        
+        
+        
         else: 
             txt.insert(END, "\n" + "multibot : cette phrase n'est pas dans ma base de donné.")
         
